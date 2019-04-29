@@ -4,6 +4,8 @@
 .navbar-inverse{
 	background-color: #ffffff!important;
     border:none!important;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 .navbar-inverse .navbar-nav>li>a {
     font-size: 17px;
@@ -89,11 +91,16 @@
     border-radius: 50%;
     margin-top: 97%;
 }
+.entregamos{
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
 .title-entregamos{
     font-family: 'ProductSans', sans-serif;
     font-size: 40px;
     color: #23919b;
     margin-left: 14%;
+    margin-bottom: 5%;
 }
 .descripcion{
     margin-left: 2%;
@@ -106,8 +113,6 @@
     letter-spacing: 0.7px;
     text-align: justify;
 }
-
-
 
 /*Contenido del bloque 3 */
 .cont-pedidos{
@@ -124,12 +129,35 @@
 	color: #ffffff;
 	text-align: center;
 }
+
+#cont-pedidos{
+    display: flex;
+}
+.circulo-blanco{
+    width: 14px;
+    height: 15px;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+.pedidos{
+    margin-left: 1%;
+}
+.descrip-pedidos{
+    font-family: 'ProductSans', sans-serif;
+    font-size: 17px;
+    font-weight: 100;
+    color: #ffffff;
+    letter-spacing: 0.7px;
+}
 #cont-imagenes{
 	display:flex;
-	
+	margin: auto;
+    width: 85%;
+    padding-top: 2%;
 }
 .cont-img{
     margin: 0% 3%;
+    text-align: center;
 }
 .title-img{
     font-family: 'ProductSans', sans-serif;
@@ -197,6 +225,7 @@
 }
 
 /*Contenido del bloque 6 */
+
 .cont-consultas{
     background-color: #f4f4f4;
 }
@@ -204,12 +233,29 @@
     width: 65%;
     margin: auto;
     padding-top: 10%;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
 }
 .title-consultas{
     font-family: 'ProductSans', sans-serif;
     font-size: 35px;
     color: #23919b;
+}
+.contacto{
+    font-family: 'ProductSans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #23919b;
+}
+.correo{
+    font-family: 'ProductSans', sans-serif;
+    font-size: 15px;
+    color: #74b7bd;
+}
+.numbers{
+    font-family: 'ProductSans', sans-serif;
+    font-size: 15px;
+    color: #23919b;
+    margin-bottom: 4%;
 }
 /*----FORMULARIO----*/
 #cont-formulario{
@@ -227,6 +273,12 @@ input{
     height: 62px;
     border-radius: 0px!important;
     border-left: 3px solid #00afb5;
+}
+input::placeholder, textarea::placeholder{
+    font-family: 'ProductSans', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    color: #cacad5;
 }
 textarea{
     width: 440px;
@@ -275,7 +327,7 @@ textarea{
 }
 #cont-app{
 	display:flex;
-	margin-top: 1.5%;
+	margin-top: 3%;
 }
 .cont-app{
 	width: 50%;
