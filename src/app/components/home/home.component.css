@@ -1,0 +1,302 @@
+/*----------------------*/
+
+
+.navbar-inverse{
+	background-color: #ffffff!important;
+    border:none!important;
+}
+.navbar-inverse .navbar-nav>li>a {
+    font-size: 17px;
+	font-family: 'ProductSans', sans-serif;
+	font-weight: 300;
+    color: #23919b!important;
+    letter-spacing: 0.7px;
+}
+.navbar-inverse>li>a:hover{
+	color: #00a0a6!important;
+}
+
+
+
+/*Contenido del bloque 1 */
+.cont-home{
+	background-image: url(https://ezierapp.com/assets/images/backgrounds/Banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: -webkit-fill-available;
+    padding-top: 5%;
+    margin-top: -20px;
+}
+#title-home{
+ 
+    margin-top: 4%;
+}
+.title-1{
+    font-family: 'ProductSans', sans-serif;
+	font-size: 60px;
+	color: #ffffff;
+	text-align: center;
+    font-weight: 500;
+}
+.title-2{
+    font-family: 'ProductSans', sans-serif;
+	font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 45px;
+    font-weight: 400;
+}
+/*-------------APLICACIONES---------------*/
+#cont-apps{
+	display:flex;
+	margin-top: 0.8%;
+}
+.apps{
+	width: 50%;
+	margin: 0% 0.8%;
+}
+.img-lefts{
+	float: right;
+}
+.img-rights{
+	float: left;
+}
+
+/*Contenido del bloque 2 */
+#cont-descripcion{
+    display: flex;
+    padding-left: 16%;
+}
+.circulo-verde{
+    width: 15px;
+    height: 15px;
+    background-color: #69ce50;
+    border-radius: 50%;
+    margin-top: 25%;
+}
+.circulo-morado{
+    width: 15px;
+    height: 15px;
+    background-color: #7550ce;
+    border-radius: 50%;
+    margin-top: 20%;
+}
+.circulo-anaranjado{
+    width: 15px;
+    height: 15px;
+    background-color: #ce8750;
+    border-radius: 50%;
+    margin-top: 97%;
+}
+.title-entregamos{
+    font-family: 'ProductSans', sans-serif;
+    font-size: 40px;
+    color: #23919b;
+    margin-left: 14%;
+}
+.descripcion{
+    margin-left: 2%;
+}
+.descrip-entregamos{
+    font-family: 'ProductSans', sans-serif;
+    font-size: 17px;
+    color: #23919b;
+    font-weight: 300;
+    letter-spacing: 0.7px;
+    text-align: justify;
+}
+
+
+
+/*Contenido del bloque 3 */
+.cont-pedidos{
+	background-color: #50c4ce;
+	height: auto;
+}
+#pedidos{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.title-pedidos{
+	font-family: 'ProductSans', sans-serif;
+	font-size: 40px;
+	color: #ffffff;
+	text-align: center;
+}
+#cont-imagenes{
+	display:flex;
+	
+}
+.cont-img{
+    margin: 0% 3%;
+}
+.title-img{
+    font-family: 'ProductSans', sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+    margin-bottom: 15%;
+}
+
+
+/*Contenido del bloque 4 */
+.pagos{
+    margin-top: 10%;
+}
+#cont-pagos{
+    display: flex;
+    margin-top: 2%;
+}
+.title-pagos{
+    font-family: 'ProductSans', sans-serif;
+    font-size: 40px;
+    color: #23919b;
+    margin-bottom: 5%;
+}
+.descripcion{
+    margin-left: 2%;
+}
+.descrip-pagos{
+    font-family: 'ProductSans', sans-serif;
+    font-size: 17px;
+    color: #6e6e6e;
+    font-weight: 300;
+    letter-spacing: 0.7px;
+    text-align: justify;
+}
+
+
+
+
+/*Contenido del bloque 5 */
+.cont-reparto{
+    background-color: #50c4ce;
+}
+#reparto-1{
+    width: 65%;
+    margin: auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+#reparto-2{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.title-reparto{
+    font-family: 'ProductSans', sans-serif;
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 500;
+}
+.descrip-reparto{
+    font-family: 'ProductSans', sans-serif;
+    font-size: 17px;
+    color: #ffffff;
+    letter-spacing: 0.7px;
+    text-align: justify;
+}
+
+/*Contenido del bloque 6 */
+.cont-consultas{
+    background-color: #f4f4f4;
+}
+#consulta-1{
+    width: 65%;
+    margin: auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.title-consultas{
+    font-family: 'ProductSans', sans-serif;
+    font-size: 35px;
+    color: #23919b;
+}
+/*----FORMULARIO----*/
+#cont-formulario{
+    padding: 10% 13% 0% 13%;
+}
+.form-control{
+    font-size: 18px!important;
+    margin-bottom: 16px!important;
+}
+label{
+    font-size: 18px;
+}
+input{
+    width: 440px;
+    height: 62px;
+    border-radius: 0px!important;
+    border-left: 3px solid #00afb5;
+}
+textarea{
+    width: 440px;
+    height: 233px!important;
+    border-left: 3px solid #00afb5;
+ }
+ .btn-info{
+    width: 440px;
+    height: 60px;
+    background-color: #00afb5!important;
+    padding: 1% 2%!important;
+    border: solid 1px #00afb5!important;
+    border-radius: 0px!important;
+    font-family: 'ProductSans', sans-serif;
+    font-size: 20px!important;
+    font-weight: bolder!important;
+    color: #ffffff;
+ }
+ .btn-info:hover {
+    color: #ffffff!important;
+}
+
+
+
+
+
+
+
+
+
+
+/*Contenido del bloque 7 */
+.cont-aplicaciones{
+	background-color: #ffffff;
+	height: auto;
+	padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 4%;
+}
+.title-aplic{
+	font-family: 'ProductSans', sans-serif;
+	font-size: 40px;
+	color: #23919b;
+	text-align: center;
+}
+#cont-app{
+	display:flex;
+	margin-top: 1.5%;
+}
+.cont-app{
+	width: 50%;
+	margin: 0% 0.5%;
+}
+.img-lefts{
+	float: right;
+}
+.img-rights{
+	float: left;
+}
+
+
+/*Contenido del bloque 8 */
+.cont-copyright{
+    background-color: #4a4a4a;
+}
+.title-copyright{
+    font-family: 'ProductSans', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
