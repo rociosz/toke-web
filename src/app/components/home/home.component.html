@@ -34,7 +34,8 @@
 
   
 <!--Contenido del bloque 1-->
-  <div class="row cont-home">
+  <div class="row cont-home"  [ngStyle]="{'background': 'url(./assets/img/group-42.png)','background-repeat': 'no-repeat',
+  'background-size': 'cover','height': '-webkit-fill-available'}">
 		<div id="title-home">
       <h4 class="title-1">Deliverys en Ayacucho</h4>
       <h4 class="title1">Al instante!</h4>
@@ -101,7 +102,7 @@
 
 
 <!--Contenido del bloque 3-->
-  <div class="row cont-pedidos" [ngStyle]="{'background-image' : 'url(./assets/img/group-43.png)'}">
+  <div class="row cont-pedidos" [ngStyle]="{'background' : 'url(./assets/img/group-43.png)'}">
     <div id="pedidos">
       <h3 class="title-pedidos">Haz tus Pedidos!</h3>
 
