@@ -2,12 +2,13 @@
 .cont-home{
     background-image: url('/assets/img/group-42.png');
     background-repeat: no-repeat;
-    height: 877px;
     background-position: center;
     background-size: cover;
+    height: auto;
 }
 #title-home{
     margin-top: 7%;
+    margin-bottom: 31%;
 }
 
 .title-1{
@@ -57,6 +58,7 @@
 /*Contenido del bloque 2 */
 #cont-descripcion{
     display: flex;
+    width: 74%;
     
 }
 .circulo-verde{
@@ -100,7 +102,7 @@
 }
 .descrip-entregamos{
     font-family: 'ProductSans', sans-serif;
-    font-size: 17px;
+    font-size: 19px;
     color: #23919b;
     font-weight: 300;
     letter-spacing: 0.7px;
@@ -110,7 +112,10 @@
 /*Contenido del bloque 3 */
 .cont-pedidos{
     background-image: url('/assets/img/group-43.png');
-    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
     padding-top: 2%;
 }
 .title-pedidos{
@@ -168,6 +173,7 @@
 /*Contenido del bloque 4 */
 .pagos{
     margin-top: 10%;
+    width: 87%;
 }
 #cont-pagos{
     display: flex;
@@ -184,7 +190,7 @@
 }
 .descrip-pagos{
     font-family: 'ProductSans', sans-serif;
-    font-size: 17px;
+    font-size: 19px;
     color: #6e6e6e;
     font-weight: 300;
     letter-spacing: 0.7px;
@@ -197,24 +203,25 @@
     background-color: #50c4ce;
 }
 #reparto-1{
-    width: 65%;
+    width: 70%;
     margin: auto;
     padding-top: 10%;
     padding-bottom: 10%;
 }
 #reparto-2{
     padding-top: 10%;
-    padding-bottom: 10%;
+    padding-bottom: 9%;
+    width: 84%;
 }
 .title-reparto{
     font-family: 'ProductSans', sans-serif;
-    font-size: 40px;
+    font-size: 50px;
     color: #ffffff;
     font-weight: 500;
 }
 .descrip-reparto{
     font-family: 'ProductSans', sans-serif;
-    font-size: 17px;
+    font-size: 19px;
     color: #ffffff;
     letter-spacing: 0.7px;
     text-align: justify;
@@ -358,6 +365,10 @@ textarea{
     .title-entregamos{
         font-size: 35px; 
     }
+    .cont-pedidos{
+        padding-top: 5%;
+        padding-bottom: 7%;
+    }
     .title-pedidos{
         margin-bottom: 2%;
     }
@@ -401,6 +412,9 @@ textarea{
     .title-entregamos{
         font-size: 32px;
     }
+    .cont-pedidos{
+        padding-top: 2%;
+    }
     .title-pedidos{
         margin-bottom: 3%;
     }
@@ -411,6 +425,7 @@ textarea{
         width: 100%;
     }
     .imagenes{
+        Width: 18%;
         top: 60px;
     }
     .title-img{
@@ -462,7 +477,7 @@ textarea{
         top: 60px;
     }
     .title-img{
-        font-size: 23px;
+        font-size: 22px;
     }
     .pagos{
         margin-top: 10%;
@@ -485,6 +500,9 @@ textarea{
     .title-consultas{
         font-size: 27px;
     }
+    .title-copyright{
+        font-size: 19px;
+    }
 }
 
 
@@ -504,15 +522,17 @@ textarea{
     }
     .title-pedidos{
         margin-top: 3%;
+        margin-bottom: 4%;
     }
     .descrip-pedidos{
-        font-size: 15px;
+        font-size: 11px;
     }
     #cont-imagenes{
         width: 100%;
     }
     .imagenes{
         width: 18%;
+        top: 63px;
     }
     .title-img{
         font-size: 17px;
@@ -523,11 +543,14 @@ textarea{
     .pagos{
         margin-top: 9%;
     }
-    .title-pagos[_ngcontent-kuf-c1] {
+    .title-pagos{
         font-size: 35px;
     }
     .descrip-pagos{
         font-size: 12px;
+    }
+    #reparto-1{
+        padding-top: 7%;
     }
     .title-reparto{
         font-size: 34px;
@@ -545,7 +568,7 @@ textarea{
         width: 80%;
     }
     .title-aplic{
-        font-size: 35px;
+        font-size: 30px;
     }
     .title-copyright{
         font-size: 15px;
@@ -554,15 +577,31 @@ textarea{
 
 
 @media screen and (max-width : 525px){
+    .cont-entregamos{
+        padding-top: 6%;
+        padding-bottom: 7%;
+    }
     .entregamos-1{
-        margin-top: 5%;
-        margin-bottom: 4%;
+        width: 90%;
+        margin: auto;
     }
     .title-entregamos{
-        font-size: 26px;
+        font-size: 32px;
+        text-align: center;
     }
     .descrip-entregamos{
-        font-size: 13px;
+        font-size: 16px;
+    }
+    .entregamos-2{
+        width: 50%;
+        margin: auto;
+    }
+    .cont-pedidos{
+        padding-top: 4%;
+        padding-bottom: 6%;
+    }
+    .title-pedidos{
+        margin-bottom: 7%;
     }
     .pedido{
         width: 93%;
@@ -575,22 +614,28 @@ textarea{
     }
     .imagenes{
         width: 18%;
+        top: 73px;
     }
     .title-img{
         font-size: 17px;
     }
+    .cont-pagos{
+        padding-top: 7%;
+    }
     .img-pagos{
         width: 290px!important;
+        margin-top: 8%;
     }
     .pagos{
-        margin-top: 9%;
+        width: 90%;
+        margin: auto;
         text-align: center;
     }
-    .title-pagos[_ngcontent-kuf-c1] {
+    .title-pagos{
         font-size: 35px;
     }
     .descrip-pagos{
-        font-size: 12px;
+        font-size: 15px;
     }
     #reparto-1{
         width: 62%;
@@ -607,11 +652,11 @@ textarea{
         padding-right: 3%;
     }
     #consulta-1{
-        width: 67%;
+        width:99%;
         text-align: center;
     }
     .title-consultas{
-        font-size: 30px;
+        font-size: 33px;
     }
     .contacto, .correo, .numbers{
         font-size: 19px;
@@ -623,29 +668,213 @@ textarea{
     #cont-formulario{
         width: 85%;
     }
-    .title-aplic{
-        font-size: 35px;
+    #cont-app{
+        margin-top: 5%;
+        margin-bottom: 3%;
     }
     .title-copyright{
-        font-size: 11px;
+        font-size: 12px;
     }
 }
 
 
-@media screen and (max-height: 450px){
-
+@media screen and (max-width: 450px){
+    .entregamos-1{
+        width: 96%;
+    }
+    .title-entregamos{
+        font-size: 30px;
+    }
+    .descrip-entregamos{
+        font-size: 14px;
+    }
+    .cont-pedidos{
+        padding-top: 7%;
+        padding-bottom: 0%;
+    }
+    .title-pedidos{
+        margin-bottom: 9%;
+    }
+    .descrip-pedidos{
+        font-size: 13px;
+    }
+    .imagenes{
+        top: 53px;
+    }
+    .pagos{
+        width: 95%;
+    }
+    .descrip-pagos{
+        font-size: 14px;
+    }
+    .img-pagos{
+        margin-top: 4%;
+        width: 250px!important;
+    }
+    #reparto-1{
+        width: 100%;
+    }
+    .descrip-reparto{
+        font-size: 14px;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    #consulta-1{
+        width: 100%;
+    }
+    .title-consultas{
+        font-size: 30px;
+    }
+    #cont-formulario{
+        width: 90%;
+    }
+    .cont-aplicaciones{
+        padding-bottom: 7%;
+    }
+    .title-aplic{
+       font-size: 27px;
+       margin-bottom: 5%;
+    }
+    #cont-app{
+        margin-bottom: 0%;
+    }
+    .title-copyright{
+        font-size: 10px;
+    }
 }
 
 
 @media screen and (max-width : 425px){
+    .entregamos-1{
+        width: 95%;
+    }
+    .descrip-entregamos{
+        font-size: 12px;
+    }
+    .title-pedidos{
+        margin-top: 4%;
+        margin-bottom: 10%;
+    }
+    .descrip-pedidos{
+        font-size: 12px;
+    }
+    .imagenes{
+        top: 58px;
+    }
 
+    .pagos{
+        width: 95%;
+    }
+    .title-pagos{
+        font-size: 39px;
+        margin-bottom: 9%;
+    }
+    .descrip-pagos{
+        font-size: 12px;
+    }
+    .img-pagos{
+        width: 235px!important;
+    }
+    .descrip-reparto{
+        font-size: 13px;
+    }
+    .title-consultas{
+        font-size: 30px;
+    }
+    .title-aplic{
+       font-size: 29px;
+    }
+    #cont-formulario{
+        width: 90%;
+    }
+    .title-copyright{
+        font-size: 10px;
+    }
 }
 
 
 @media screen and (max-width : 375px){
+    .title-entregamos{
+        font-size: 26px;
+    }
+    .descrip-entregamos{
+        font-size: 11px;
+    }
+    .title-pedidos{
+        font-size: 35px;
+    }
 
+    .title-pagos{
+        font-size: 33px;
+    }
+    .pagos{
+        width: 96%;
+    }
+    .descrip-pagos{
+        font-size: 11px;
+    }
+    .img-pagos{
+        width: 190px!important;
+    }
+    .title-reparto{
+        font-size: 33px;
+    }
+    .descrip-reparto{
+        font-size: 11px;
+    }
+    .title-consultas{
+        font-size: 27px;
+    }
+    .img-contacto{
+        width: 50%;
+    }
+    .title-aplic{
+        font-size: 24px;
+    }
+    .title-copyright{
+        font-size: 8px;
+    }
 }
 
 @media screen and (max-width : 320px){
+    .entregamos-1{
+        width: 97%;
+    }
+    .descrip-entregamos{
+        font-size: 9px;
+    }
+    .title-pedidos{
+        font-size: 35px;
+    }
 
+    .title-pagos{
+        font-size: 30px;
+    }
+    .pagos{
+        width: 97%;
+    }
+    .descrip-pagos{
+        font-size: 9px;
+    }
+    .img-pagos{
+        width: 145px!important;
+    }
+    .title-reparto{
+        font-size: 28px;
+    }
+    .descrip-reparto{
+        font-size: 9px;
+    }
+    .title-consultas{
+        font-size: 25px;
+    }
+    #cont-formulario{
+        width: 100%;
+    }
+    .title-aplic{
+        font-size: 21px;
+    }
+    .title-copyright{
+        font-size: 7px;
+    }
 }
