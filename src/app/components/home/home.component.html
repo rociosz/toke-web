@@ -1,55 +1,27 @@
 <div class="container-fluid">
 
-  <div class="row">
-    <header class="navbar navbar-inverse">    
-      <div class="container-fluid">
-         <div class="navbar-header">
-            <a class="navbar-brand" href="">
-              <img src="./assets/img/group-38.png" class="img-responsive img-logo" width="230">
-            </a>
+  <app-nav></app-nav>
 
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-         </div>
-
-        <nav class="collapse navbar-collapse bs-navbar-collapse">
-      
-          <ul class="nav navbar-nav">
-            <li><a href="">Descripción</a></li>
-            <li><a href="">Pedidos</a></li>
-            <li><a href="">Pago</a></li>
-            <li><a href="">Reparto</a></li>
-            <li><a href="">Consultas o Sugerencias</a></li>
-            <li><a href="">Descarga</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+<!--Contenido del bloque 1-->
+  <div class="row cont-home">
+    <div class="col-sm-12">
+        <div id="title-home">
+            <h4 class="title-1">Deliverys en Ayacucho</h4>
+            <h4 class="title1">Al instante!</h4>
+            <p class="title-2">Descarga la App</p>
+            <div id="cont-apps">
+              <div class="apps">
+                <a href="" target="none"><img src="./assets/img/group-34.png" class="img-responsive center-block img-lefts"></a>
+              </div>
+              <div class="apps">
+                <a href="" target="none"><img src="./assets/img/group-35.png" class="img-responsive center-block img-rights"></a>
+              </div>
+            </div>
+          </div>
+    </div>
   </div>
 
 
-
-  
-<!--Contenido del bloque 1-->
-  <div class="row cont-home"  [ngStyle]="{'background': 'url(./assets/img/group-42.png)','background-repeat': 'no-repeat',
-  'background-size': 'cover','height': '-webkit-fill-available'}">
-		<div id="title-home">
-      <h4 class="title-1">Deliverys en Ayacucho</h4>
-      <h4 class="title1">Al instante!</h4>
-			<p class="title-2">Descarga la App</p>
-			<div id="cont-apps">
-				<div class="apps">
-					<a href="" target="none"><img src="./assets/img/group-34.png" class="img-responsive center-block img-lefts"></a>
-				</div>
-				<div class="apps">
-					<a href="" target="none"><img src="./assets/img/group-35.png" class="img-responsive center-block img-rights"></a>
-				</div>
-			</div>
-		</div>
-	</div>
 
 
 
@@ -101,112 +73,108 @@
   </div>
 
 
+
 <!--Contenido del bloque 3-->
-  <div class="row cont-pedidos" [ngStyle]="{'background' : 'url(./assets/img/group-43.png)'}">
-    <div id="pedidos">
+  <div class="row cont-pedidos" >
+    <div class="col-sm-12">
       <h3 class="title-pedidos">Haz tus Pedidos!</h3>
-
-      <div id="cont-pedido">
-        <div class="pedido">
-          <div id="cont-pedidos">
-            <div>
-              <div class="circulo-blanco"></div>
-            </div>
-            <div class="pedidos">
-              <p class="descrip-pedidos">Hacer pedidos en 1toke es sencillo, tienes opciones de<br>pedidos como comida, bebidas,
-              mercados, farmacias,<br>mandar algo y más.</p> 
-            </div>
-          </div> 
-        </div>
-
-        <div class="pedido" style="margin-top: 0%;">
-          <div id="cont-pedidos">
-            <div>
-              <div class="circulo-blanco"></div>
-            </div>
-            <div class="pedidos">
-              <p class="descrip-pedidos">Selecciona la opción que desees, busca entre los<br>productos que te 
-                interesen, selecciónalos y listo.</p> 
-            </div>
-          </div> 
-        </div>
-
+    </div>
+    <div class="pedido">
+      <div class="col-sm-6" style="margin-top: 2%;">
+        <div id="cont-pedidos">
+          <div>
+            <div class="circulo-blanco"></div>
+          </div>
+          <div class="pedidos">
+            <p class="descrip-pedidos">Hacer pedidos en 1toke es sencillo, tienes opciones de<br>pedidos como comida, bebidas,
+            mercados, farmacias,<br>mandar algo y más.</p> 
+          </div>
+        </div> 
       </div>
 
-        <div id="cont-imagenes">
-          <div class="cont-img">
+      <div class="col-sm-6" style="margin-top: 2%;">
+        <div id="cont-pedidos">
+          <div>
+            <div class="circulo-blanco"></div>
+          </div>
+          <div class="pedidos">
+            <p class="descrip-pedidos">Selecciona la opción que desees, busca entre los<br>productos que te 
+              interesen, selecciónalos y listo.</p> 
+          </div>
+        </div> 
+      </div>
+    </div>
+    <div class="col-sm-12">
+      <div id="cont-imagenes">
+        <div class="imagenes">
             <p class="title-img">Recoger y enviar</p>
             <img src="./assets/img/group-32.png" class="img-responsive center-block">
-          </div>
-
-          <div class="cont-img">
+        </div>
+        <div class="imagenes">
             <p class="title-img">Comidas</p>
-            <img src="./assets/img/group-8.png" class="img-responsive center-block">
-          </div>
-
-          <div class="cont-img">
+            <img src="./assets/img/group-8.png" style="position: relative;
+            bottom: -40px;" class="img-responsive center-block">
+        </div>
+        <div class="imagenes">
             <p class="title-img">Mercados</p>
             <img src="./assets/img/group-11.png" class="img-responsive center-block">
-          </div>
-
-          <div class="cont-img">
+        </div>
+        <div class="imagenes">
             <p class="title-img">Regalos</p>
             <img src="./assets/img/group-6.png" class="img-responsive center-block">
-          </div>
-
-          <div class="cont-img">
+        </div>
+        <div class="imagenes">
             <p class="title-img">Bebidas</p>
             <img src="./assets/img/group-7.png" class="img-responsive center-block">
-          </div>
-
         </div>
-
+      </div>
     </div>
+
   </div>
 
 
 <!--Contenido del bloque 4-->
   <div class="row">
     <div class="col-sm-6 col-sm-push-6">
-        <div class="pagos">
-            <h4 class="title-pagos">Realiza tus Pagos</h4>
+      <div class="pagos">
+        <h4 class="title-pagos">Realiza tus Pagos</h4>
     
-            <div id="cont-pagos">
-              <div>
-                <div class="circulo-verde"></div>
-              </div>
-              <div class="descripcion">
-                <p class="descrip-pagos">Cuando hayas terminado de seleccionar los productos<br>que quieras
-                recibir o enviar, la app te mostrará el<br>precio del producto + el costo de envío (en caso
-                de<br> recoger/enviar un encargo personal solo te costará el<br>envío).</p>
-              </div>
-            </div>
-    
-            <div id="cont-pagos">
-              <div>
-                <div class="circulo-morado"></div>
-              </div>
-              <div class="descripcion">
-                <p class="descrip-pagos">Pago contra entrega ya sea en efectivo o con tarjeta de<br>crédito.</p>
-              </div>
-            </div>
-    
-            <div id="cont-pagos">
-              <div>
-                <div class="circulo-anaranjado"></div>
-              </div>
-              <div class="descripcion">
-                <p class="descrip-pagos">¡Eso es todo! Los envíos llegarán en un periodo de 30<br>minutos.
-                Más o menos dependiendo de la distancia.</p>
-              </div>
-            </div>
-    
+        <div id="cont-pagos">
+          <div>
+            <div class="circulo-verde"></div>
           </div>
+          <div class="descripcion">
+            <p class="descrip-pagos">Cuando hayas terminado de seleccionar los productos<br>que quieras
+            recibir o enviar, la app te mostrará el<br>precio del producto + el costo de envío (en caso
+            de<br> recoger/enviar un encargo personal solo te costará el<br>envío).</p>
+          </div>
+        </div>
+    
+        <div id="cont-pagos">
+          <div>
+            <div class="circulo-morado"></div>
+          </div>
+          <div class="descripcion">
+            <p class="descrip-pagos">Pago contra entrega ya sea en efectivo o con tarjeta de<br>crédito.</p>
+          </div>
+        </div>
+    
+        <div id="cont-pagos">
+          <div>
+            <div class="circulo-anaranjado"></div>
+          </div>
+          <div class="descripcion">
+            <p class="descrip-pagos">¡Eso es todo! Los envíos llegarán en un periodo de 30<br>minutos.
+            Más o menos dependiendo de la distancia.</p>
+          </div>
+        </div>
+    
+      </div>
     </div>
   
     <div class="col-sm-6 col-sm-pull-6">
       <div>
-        <img src="./assets/img/group-17.png" class="img-responsive center-block" width="500">
+        <img src="./assets/img/group-17.png" class="img-responsive center-block img-pagos" width="500">
       </div>
     </div>
 
@@ -215,27 +183,27 @@
 
 <!--Contenido del bloque 5-->
   <div class="row cont-reparto">
-      <div class="col-sm-6">
-        <div id="reparto-1">
-          <h4 class="title-reparto">Repartos exclusivos<br>en todo Ayacucho</h4>
-        </div>
+    <div class="col-sm-6">
+      <div id="reparto-1">
+        <h4 class="title-reparto">Repartos exclusivos<br>en todo Ayacucho</h4>
       </div>
+    </div>
 
-      <div class="col-sm-6">
-        <div id="reparto-2">
-          <p class="descrip-reparto">¿Vives o trabajas en Ayacucho? Entonces 1toke es para ti.<br>Esta 
-          app nace en Ayacucho para el beneficio de todos los<br>viven o trabajan
-          aquí. Conocemos muy bien la zona y tus<br>productos se entregarán a la 
-          brevedad con el mejor de los<br>cuidados. </p>
-        </div>
+    <div class="col-sm-6">
+      <div id="reparto-2">
+        <p class="descrip-reparto">¿Vives o trabajas en Ayacucho? Entonces 1toke es para ti.<br>Esta 
+        app nace en Ayacucho para el beneficio de todos los<br>viven o trabajan
+        aquí. Conocemos muy bien la zona y tus<br>productos se entregarán a la 
+        brevedad con el mejor de los<br>cuidados. </p>
       </div>
+    </div>
   </div>
 
 
 <!--Contenido del bloque 6-->
   <div class="row cont-consultas">
     <div class="col-sm-6 consulta">
-      <div id="borde-consulta">
+      <div class="borde-consulta">
         <div id="consulta-1">
           <h4 class="title-consultas">Consultas o sugerencias<br>en nuestro formulario.</h4>
         </div>
@@ -246,58 +214,66 @@
           <img src="./assets/img/group-21.png" class="img-responsive center-block" width="230">
         </div>
       </div>
-        
     </div>
 
     <div class="col-sm-6">
-      <div id="cont-formulario">
-        <form>
-          <div class="form-row">
-            <div class="form-group">
+      <div id="borde-form">
+        <div id="cont-formulario">
+          <form>
+            <div class="form-row">
+              <div class="form-group">
                 <input type="text" class="form-control" placeholder="Nombre">
-            </div>
-            <div class="form-group">
+              </div>
+              <div class="form-group">
                 <input type="email" class="form-control" placeholder="Correo electronico">
-            </div>
-            <div class="form-group">
+              </div>
+              <div class="form-group">
                 <textarea class="form-control mensaje" placeholder="Consulta o Sugerencia"></textarea>
-            </div>
-            <div class="form-group">
+              </div>
+              <div class="form-group">
                 <button type="button" class="btn-info">Enviar</button>
+              </div>
             </div>
-          </div>
-        </form>
+          </form>
+        </div>
       </div>
     </div>
 
   </div>
+
 
 
 <!--Contenido del bloque 7-->
   <div class="row cont-aplicaciones">
-    <div id="aplicaciones">
-      <img src="./assets/img/group-copy.png" class="img-responsive center-block">
-      <h3 class="title-aplic">No esperes más y descarga 1toke ahora mismo.</h3>
-      <div id="cont-app">
-        <div class="cont-app">
-          <a href=""><img src="./assets/img/group-34.png" class="img-responsive center-block img-lefts"></a>
-        </div>
-        <div class="cont-app">
-          <a href=""><img src="./assets/img/group-35.png" class="img-responsive center-block img-rights"></a>
+    <div class="col-sm-12">
+      <div id="aplicaciones">
+        <img src="./assets/img/group-copy.png" class="img-responsive center-block">
+        <h3 class="title-aplic">No esperes más y descarga 1toke ahora mismo.</h3>
+        <div id="cont-app">
+          <div class="cont-app">
+            <a href=""><img src="./assets/img/group-34.png" class="img-responsive center-block img-lefts"></a>
+          </div>
+          <div class="cont-app">
+            <a href=""><img src="./assets/img/group-35.png" class="img-responsive center-block img-rights"></a>
+          </div>
         </div>
       </div>
     </div>
   </div>
 
 
-
 <!--Contenido del bloque 8-->
   <div class="row cont-copyright">
-    <div align="center">
+    <div>
       <p class="title-copyright">Copyright ©2019  Todos los derechos reservados para 1toke - diseñado
         por IteamDevs.</p>
     </div>
   </div>
+
+
+
+
+
 
 </div>
 

@@ -1,0 +1,151 @@
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;cursor: pointer;
+  }
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  .sidenav{
+    background-color: #00afb5!important;
+    text-align: center;
+}
+.sidenav a{
+    color: #ffffff;
+    font-size: 17px!important;
+    font-weight: 600;
+}
+  .sidenav a:hover {
+    color: #f1f1f1;
+    background-color: #3fd8dd!important;
+    
+  }
+  .navbar-inverse .navbar-nav>li>a:hover{
+    color: #3fd8dd!important;
+  }
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  /**********************************/
+  /*Contenido del HEADER*/
+  .cont-header{
+    margin-bottom: -1%;
+  }
+  .navegador{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+  }
+  .pc{
+    justify-content: space-between;
+    display: flex;
+  }
+  .navbar-nav{
+    position: relative;
+    right: 15%;
+}
+  .navbar-inverse{
+      background: #ffffff;
+      border:none!important;
+      padding-top: 1%;
+  }
+  .navbar-inverse .navbar-nav>li>a {
+    font-size: 17px;
+	font-family: 'ProductSans', sans-serif;
+	font-weight: 300;
+    color: #23919b!important;
+    letter-spacing: 0.7px;
+  }
+.menu{
+  font-size:30px;
+  cursor:pointer; 
+  float:right;
+}
+ 
+  /*Termina el contenido del HEADER*/
+  nav .movil{
+          display: none;
+      }
+  /*Termina el contenido del HEADER*/
+  @media  screen and (max-width : 1200px) {
+    .navbar-nav{
+        position: relative;
+        right: 10%;
+    }
+  } 
+  @media  screen and (max-width : 1125px) {
+    .navbar-nav{
+        right: 5%;
+    }
+  } 
+  @media  screen and (max-width : 1070px) {
+    .navbar-nav{
+        right: 2.5%;
+    }
+  }
+  @media  screen and (max-width : 1025px) {
+    .nav>li>a {
+        padding: 15px 10px;
+    }
+ 
+  }
+  @media  screen and (max-width : 921px) {
+    .navbar-inverse .navbar-nav > li> a{
+        font-size: 15px;
+    }
+  }
+  @media  screen and (max-width : 850px) {
+    .navbar-inverse .navbar-nav > li> a{
+        font-size: 14px;
+    }
+    .navbar-nav {
+        right: 3%;
+    }
+  }
+
+  /* Desktops and laptops ----------- */
+  @media  screen and (max-width : 768px) {
+      nav .movil{
+          display: block;
+      }
+      nav .pc{
+          display: none;
+      }
+      .sidenav {
+        padding-top: 45px;
+    }
+
+    .cont-header{
+      margin-bottom: -2%!important;
+    }
+    .navbar-inverse{
+      padding-top: 0%!important;
+    }
+    .menu{
+      margin-top: 1%;
+    }
+  }
+
+
