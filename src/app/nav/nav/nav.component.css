@@ -33,11 +33,10 @@
   font-size: 17px!important;
   font-weight: 600;
 }
-.sidenav>.nav>li>a:hover {
+.sidenav a:hover {
   color: #f1f1f1;
   background-color: #3fd8dd!important;
   cursor: pointer!important;
-    
 }
 .navbar-inverse .navbar-nav>li>a:hover{
   color: #3fd8dd!important;
@@ -95,6 +94,16 @@ nav .movil{
   display: none;
 }
   /*Termina el contenido del HEADER*/
+@media  screen and (max-width : 1440px) {
+  .navbar-brand{
+    margin: -29px 15px!important;
+  }
+}
+@media  screen and (max-width : 1366px) {
+  .navbar-brand{
+    margin: -28px 15px!important;
+  }
+}
 @media  screen and (max-width : 1200px) {
   .navbar-nav{
     position: relative;
@@ -122,13 +131,22 @@ nav .movil{
     margin: -25px 15px!important;
   }
 }
-@media  screen and (max-width : 990px){
+
+@media  screen and (max-width : 925px) {
+  .navbar-inverse .navbar-nav > li> a{
+    font-size: 15px;
+  }
+  .navbar-brand {
+    margin: -24px 15px!important;
+  }
+  .cont-header{
+    margin-bottom: -3%!important;
+  }
   .img-logo{
-    width: 200px;
+    width: 180px;
   }
 }
-
- @media  screen and (max-width : 921px) {
+@media  screen and (max-width : 921px) {
   .navbar-inverse .navbar-nav > li> a{
     font-size: 15px;
   }
@@ -153,9 +171,6 @@ nav .movil{
   .sidenav {
     padding-top: 45px;
   }
-  .cont-header{
-    margin-bottom: -3%!important;
-  }
   .navbar-inverse{
     padding-bottom: 1%;
   }
@@ -172,6 +187,17 @@ nav .movil{
 }
 
 
+@media  screen and (max-width : 600px){
+  .cont-header{
+    margin-bottom: -4%!important;
+  }
+  .navbar-brand{
+    margin: -21px 15px!important;
+  }
+  .img-logo{
+    width: 135px;
+  }
+}
 @media  screen and (max-width : 525px){
   .cont-header{
     margin-bottom: -5%!important;
@@ -184,12 +210,26 @@ nav .movil{
   }
 }
 
+
+@media  screen and (max-width : 525px){
+  .img-logo{
+    width: 110px;
+  }
+}
+
+
 @media  screen and (max-width : 450px){
   .cont-header{
     margin-bottom: -5%!important;
   }
-  .img-logo{
-    width: 110px;
+}
+
+@media  screen and (max-width : 425px){
+  .cont-header{
+    margin-bottom: -6%!important;
+  }
+  .navbar-brand{
+    margin: -19px 15px!important;
   }
 }
 
@@ -201,7 +241,7 @@ nav .movil{
     margin: -19px 15px!important;
   }
   .img-logo{
-    width: 100px;
+    width: 95px;
   }
 }
 
