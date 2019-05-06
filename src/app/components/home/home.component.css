@@ -33,7 +33,7 @@
     font-weight: 400;
     letter-spacing: 1px;
     margin-top: 2%;
-    margin-bottom: 4%;
+    margin-bottom: 4%;  
 }
 /*-------------APLICACIONES---------------*/
 #cont-apps{
@@ -45,7 +45,8 @@
 	margin: 0% 0.8%;
 }
 .img-lefts{
-	float: right;
+    float: right;
+    display: none;
 }
 .img-rights{
 	float: left;
@@ -182,7 +183,9 @@
     text-align: center;
     margin-bottom: 15%;
 }
-
+.imagenes:hover, .Imagenes:hover{
+    transform:scale(1.1);
+}
 
 /*Contenido del bloque 4 */
 .img-pagos{
@@ -337,7 +340,8 @@ textarea{
     color: #ffffff;
  }
  .btn-info:hover {
-    color: #ffffff!important;
+    color: #00afb5!important;
+    background-color: #ffffff!important;
 }
 
 
@@ -367,7 +371,8 @@ textarea{
 	margin: 0% 0.5%;
 }
 .img-lefts{
-	float: right;
+    float: right;
+    display: none;
 }
 .img-rights{
 	float: left;
@@ -394,6 +399,23 @@ textarea{
 /*----------RESPONSIVE----------*/
 /*----------RESPONSIVE----------*/
 /*----------RESPONSIVE----------*/
+
+@media screen and (max-width: 1900px){
+    #home{
+        margin-bottom: 40%;
+    }
+    .title-home{
+        width: 35%;
+    }
+    #reparto-1{
+        width: 48%;
+    }
+    #consulta-1{
+        width: 45%;
+    }
+}
+
+
 @media screen and (max-width: 1440px){
     #home{
         margin-bottom: 34%;
