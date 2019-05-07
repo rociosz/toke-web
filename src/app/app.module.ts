@@ -1,4 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
+
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
 import { NgModule } from '@angular/core';
 
 import { routing, appRoutingProviders } from './app.routing';
@@ -17,6 +20,8 @@ import { NavComponent } from './nav/nav/nav.component';
   ],
   imports: [
     BrowserModule,
+    FormsModule,
+    ReactiveFormsModule,
     AngularFontAwesomeModule,
     routing
   ],

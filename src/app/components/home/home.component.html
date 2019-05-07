@@ -219,19 +219,22 @@
     <div class="col-sm-6">
       <div id="borde-form">
         <div id="cont-formulario">
-          <form>
+          <form id="" ng-controller="enviar-mensaje" method="POST">
             <div class="form-row">
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Nombre">
+                <input type="text" name="inombre" ng-model="user.nombre" class="form-control" placeholder="Nombre" required>
+                
               </div>
               <div class="form-group">
-                <input type="email" class="form-control" placeholder="Correo electronico">
+                <input type="email" name="icorreo" ng-model="user.correo" class="form-control" placeholder="Correo electronico" required>
+                  
               </div>
               <div class="form-group">
-                <textarea class="form-control mensaje" placeholder="Consulta o Sugerencia"></textarea>
+                <textarea name="imensaje" ng-model="user.mensaje" class="form-control" placeholder="Consulta o Sugerencia" required></textarea>
+                  
               </div>
               <div class="form-group">
-                <button type="button" class="btn-info">Enviar</button>
+                <button type="button" class="btn-info" [disabled]="">Enviar</button>
               </div>
             </div>
           </form>
