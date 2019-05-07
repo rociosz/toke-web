@@ -17,6 +17,9 @@ export class HomeComponent implements OnInit {
     AOS.init();
   }
 
+  datos(){
+    console.log('nombre','correo','mensaje');
+  }
 
 
 

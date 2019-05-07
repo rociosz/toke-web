@@ -219,7 +219,7 @@
     <div class="col-sm-6">
       <div id="borde-form">
         <div id="cont-formulario">
-          <form method="POST" #userForm="ngForm" onclick="datos()">
+          <form method="POST" #userForm="ngForm">
             <div class="form-row">
               <div class="form-group">
                 <input type="text" name="inombre" ng-model="nombre" class="form-control" placeholder="Nombre" required>
@@ -234,7 +234,7 @@
                   
               </div>
               <div class="form-group">
-                <button type="button" class="btn-info">Enviar</button>
+                <button type="button" class="btn-info" click="datos()" >Enviar</button>
               </div>
             </div>
           </form>
