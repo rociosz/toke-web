@@ -400,6 +400,16 @@ textarea{
 /*----------RESPONSIVE----------*/
 /*----------RESPONSIVE----------*/
 
+@media screen and (max-width: 1930px){
+    #home{
+        margin-bottom: 39%;
+    }
+    .title-home{
+        width: 38%;
+    }
+}
+
+
 @media screen and (max-width: 1900px){
     #home{
         margin-bottom: 40%;
@@ -1004,6 +1014,8 @@ textarea{
         margin-top: -10%;
     }
 }
+
+
 @media screen and (max-width: 600px){
     #home{
         margin-bottom: 21%;
@@ -1038,10 +1050,6 @@ textarea{
     .img-entregamos{
         width: 225px;
     }
-
-
-
-
     .title-pedidos{
         margin-bottom: 5%;
     }
@@ -1051,12 +1059,6 @@ textarea{
     .descrip-pedidos{
         font-size: 17px;
     }
-
-
-
-
-
-
     .pagos{
         margin-top: 8%;
     }
@@ -1339,9 +1341,6 @@ textarea{
         .title-home{ width: 95%; }
         #consulta-1 { width: 98%; }
     }
-
-
-
 
 
 @media screen and (max-width: 320px){

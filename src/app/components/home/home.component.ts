@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import * as AOS from 'aos';
 
-declare var $: any;
+declare var $: string;
 
 
 @Component({
@@ -10,14 +10,15 @@ declare var $: any;
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-
+  
   constructor() { }
 
   ngOnInit() {
     AOS.init();
   }
-  
 
-  
+
+
+
 
 }
